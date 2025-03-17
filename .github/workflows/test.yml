@@ -142,7 +142,7 @@ jobs:
           git clone \
             --depth 1 \
             --branch ${REDMINE_BRANCH} \
-            https://github.com/redmine/redmine.git
+            https://github.com/otegami/redmine.git
           cd redmine
           sed \
             -i'' \
